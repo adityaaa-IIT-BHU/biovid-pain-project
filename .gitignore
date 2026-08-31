@@ -1,0 +1,19 @@
+# Dataset (never committed) and subject-linked artifacts.
+# BioVid Part C is confidential (signed data-use agreement); notes/ contains
+# per-subject traces, figures, and logs derived from it and .pptx decks embed
+# subject video frames -- none of this leaves the local machine.
+data/
+notes/
+*.pptx
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Third-party model weights (downloaded separately, see README)
+models/*.task
+
+# OS
+.DS_Store
